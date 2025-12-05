@@ -1,0 +1,63 @@
+📘 CRUD Mahasiswa – PHP Native + MySQL
+Project ini merupakan tugas praktikum yang berfokus pada pembuatan aplikasi CRUD (Create, Read, Update, Delete) untuk data mahasiswa menggunakan PHP Native, MySQL, dan HTML/CSS. Aplikasi ini berjalan secara lokal menggunakan XAMPP sebagai server.
+
+
+🚀 Fitur Utama
+➕ Menambahkan data mahasiswa
+📄 Menampilkan daftar mahasiswa
+✏ Mengubah data mahasiswa
+❌ Menghapus data mahasiswa
+🎨 Tampilan modern dengan CSS custom
+🔒 Keamanan dasar dengan prepared statements (PDO)
+
+
+🛠️ Teknologi yang Digunakan
+1. PHP Native
+2. MySQL
+3. HTML5
+4. CSS
+5. XAMPP / Apache
+6. PDO untuk koneksi database
+
+
+📂 Struktur Folder
+ujian_web/
+│── index.php
+│── functions.php
+│── config.php
+│── style.css
+│── ujian_web.sql   ← file database export
+
+
+⚙️ Cara Menjalankan Project
+1. Clone repository
+    git clone https://github.com/username/nama-repo.git
+2. Pindahkan folder project ke:
+    C:/xampp/htdocs/
+3. Import database:
+    1. Buka phpMyAdmin
+    2. Klik Import
+    3. Pilih file ujian_web.sql
+    4. Jalankan
+4. Sesuaikan konfigurasi database di config.php jika diperlukan.
+5. Buka di browser:
+   http://localhost/ujian_web/
+
+
+🗄️ Database
+Struktur tabel mahasiswa:
+Field         Tipe                  Keterangan
+id       INT AUTO_INCREMENT     PRIMARY KEY
+npm      VARCHAR(20)            Nomor Pokok Mahasiswa
+nama     VARCHAR(100)           Nama Mahasiswa
+jurusan  VARCHAR(50)            Program Studi
+email    VARCHAR(100)           Email Mahasiswa
+dibuat   TIMESTAMP DEFAULT      CURRENT_TIMESTAMP
+
+
+🎯 Tujuan Pembuatan Project
+Project ini dibuat untuk memenuhi tugas praktikum pemrograman web sekaligus memahami konsep CRUD, struktur HTML/CSS, serta koneksi dan pengolahan data menggunakan PHP dan MySQL.
+
+
+📝 Lisensi
+Project ini dibuat untuk kepentingan pembelajaran dan tidak memiliki lisensi khusus. Silakan gunakan dan modifikasi dengan bebas.
